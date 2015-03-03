@@ -3,6 +3,7 @@ var url = require('url');
 var hello = require('./hello');
 
 var friends = [];
+friends.push('123');
 
 var requestHandler;
 requestHandler = function (request, response) {
