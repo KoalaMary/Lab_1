@@ -16,7 +16,7 @@ requestHandler = function (request, response) {
 	if (pathName === '/') {
 		response.writeHead(200, {'Content-type': 'text/html; charset=UTF-8'});
 		response.end('<h1>Имя</h1> \
-			<form action="/hello" method="POST"> \
+			<form action="/hello" method="GET"> \
 				<input name="userName" value="' + 1 + '"/> \
 				<input name="age"/> \
 				<input type="submit"/> \
